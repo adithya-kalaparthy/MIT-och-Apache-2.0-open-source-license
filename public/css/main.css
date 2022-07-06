@@ -1,0 +1,30 @@
+.heading{
+    margin-top:20px;
+}
+
+body {
+    background-color: #ffdfd3 !important;
+}
+.container{
+    margin-top: 50px;
+}
+.videoWrapper{
+    position:relative;
+    overflow:hidden;
+    padding-bottom: 56.25%;
+    height:0
+}
+
+.videoWrapper video {
+    position: absolute;
+    top: auto;
+    left: auto;
+    width: 80%;
+    aspect-ratio: 16/9;
+    border-radius: 5px;
+    max-width: 720px;
+    max-height: 405px;
+    min-width: 320px;
+    min-height: 180px;
+}
+
